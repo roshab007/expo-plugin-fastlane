@@ -1,0 +1,34 @@
+{
+  "name": "expo-plugin-fastlane",
+  "version": "1.0.1",
+  "main": "build/index.js",
+  "description": "Expo plugin to copy Fastlane and Gemfile for Android & IOS builds",
+  "keywords": [
+    "expo",
+    "fastlane",
+    "plugin",
+    "ios"
+  ],
+  "author": "roshab007",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@expo/config-plugins": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "@expo/config-plugins": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshab007/expo-plugin-fastlane"
+  },
+  "homepage": "https://github.com/roshab007"
+}
